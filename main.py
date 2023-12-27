@@ -1,6 +1,8 @@
 import streamlit as st
+import pandas
 
 st.set_page_config(layout="wide")
+
 
 col1, col2 = st.columns(2)
 
@@ -9,15 +11,32 @@ with col1:
 
 with col2:
     st.title("Ayoub Ayadi")
-    content = """Hi, I am Ayoub! I am a currently an Electro- and IT Bachelor of Engineering Student in the Applied 
-    Science University of Düsseldorf in Germany with a focus on IT. I have had multiple projects including Neural 
-    networking for Artificial Intelligence, Web and App development, Embedded Systems Programming, Network Security 
-    and Data transmission."""
+    content = """
+Greetings,
+
+I am Ayoub, a student currently pursuing a Bachelor's degree in Electro- and IT Engineering at the Applied 
+Science University of Düsseldorf in Germany, with a focus on Information Technology. Throughout my academic 
+journey, I've actively engaged in diverse projects, specializing in Neural Networking for Artificial 
+Intelligence, Web and App Development, Embedded Systems Programming, Network Security, and Data Transmission. 
+This multifaceted experience has broadened my skills and adaptability, emphasizing my commitment to 
+contributing meaningfully to the advancements in Information Technology."""
 
     st.info(content)
 
 content2 = """
-Below you can find some of my programming projects that i have made using Python and C#. Feel free to contact me !
+Below you can find some of my programming projects that i have made using Python and C#. 
+Feel free to contact me !
 """
 
 st.write(content2)
+
+col3, col4 = st.columns(2)
+df = pandas.read_csv("data.csv", sep=";")
+
+with col3:
+    for index, row in df[:10].iterrows():
+        st.header(row["title"])
+
+with col4:
+    for index, row in df[10:].iterrows():
+        st.header(row["title"])
