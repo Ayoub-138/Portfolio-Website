@@ -1,11 +1,11 @@
-title;description;url;image;
-Neural Network; a neural network that can vary in size depending on the user and can learn training patterns using backpropagation.;https://github.com/Ayoub-138/NeuronalesNetz;1.png;
-Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://github.com/Ayoub-138/Webcam-detection;11.png;8
-Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://github.com/Ayoub-138/Restaurant-Menu-Web-App;19.png;18
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/Ayoub-138/invoice-generator;4.png;4
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/Ayoub-138/pdf-template;3.png;3
-Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Chatgpt API.;https://github.com/Ayoub-138/Open-Domain-Chatbot;10.png;15
-Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://github.com/Ayoub-138/Student-Management-System;17.png;14
-Weather Forecast Web App;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/Ayoub-138/Weather-Forecast;16.png;7
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/Ayoub-138/Weather-api;6.png;6
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/Ayoub-138/Portfolio-Website;2.png;2
+title;description;url;image
+Neural Network; a neural network that can vary in size depending on the user and can learn training patterns using backpropagation.;https://github.com/Ayoub-138/NeuronalesNetz;1.png
+Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://github.com/Ayoub-138/Webcam-detection;11.png
+Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://github.com/Ayoub-138/Restaurant-Menu-Web-App;19.png
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/Ayoub-138/invoice-generator;4.png
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/Ayoub-138/pdf-template;3.png
+Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Chatgpt API.;https://github.com/Ayoub-138/Open-Domain-Chatbot;10.png
+Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://github.com/Ayoub-138/Student-Management-System;17.png
+Weather Forecast Web App;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/Ayoub-138/Weather-Forecast;16.png
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/Ayoub-138/Weather-api;6.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/Ayoub-138/Portfolio-Website;2.png
